@@ -1,0 +1,23 @@
+# Required for interacting with AWS via boto3
+boto3==1.28.6
+
+# Terraform external data handling (optional, for Python-based data handling)
+pyyaml==6.0
+
+# Useful for subprocess management (if running Terraform commands via Python)
+subprocess32==3.5.4
+
+# JSON and environment handling
+python-dotenv==1.0.0
+
+# Unit testing (if you are testing your automation scripts)
+pytest==7.4.2
+
+# Requests for API interactions (optional, if needed)
+requests==2.31.0
+
+# For linting or formatting (optional)
+black==23.3.0
+flake8==6.1.0
+
+# Add any other required packages for your specific workflow
