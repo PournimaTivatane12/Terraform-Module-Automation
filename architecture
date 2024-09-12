@@ -1,0 +1,38 @@
+/terraform-module-automation/
+│
+├── /modules/               # Directory for reusable Terraform modules
+│   ├── /network/            # Example: Network module (VPC, subnets, etc.)
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
+│   │   └── README.md
+│   ├── /compute/            # Example: Compute module (EC2, Autoscaling, etc.)
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
+│   │   └── README.md
+│   └── /storage/            # Example: Storage module (S3, EBS, etc.)
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       └── README.md
+│
+├── /environments/           # Environment-specific configurations (e.g., dev, prod)
+│   ├── /dev/
+│   │   ├── main.tf
+│   │   ├── terraform.tfvars  # Dev environment variables
+│   │   └── backend.tf        # Remote state config for dev environment
+│   └── /prod/
+│       ├── main.tf
+│       ├── terraform.tfvars  # Prod environment variables
+│       └── backend.tf        # Remote state config for prod environment
+│
+├── /scripts/                # Helper scripts (e.g., init, plan, apply)
+│   ├── init.sh              # Script for initializing Terraform
+│   ├── plan.sh              # Script for planning Terraform changes
+│   └── apply.sh             # Script for applying Terraform changes
+│
+├── .gitignore               # Git ignore file to exclude sensitive and unnecessary files
+├── README.md                # Project overview and instructions
+├── versions.tf              # Define Terraform, provider, and module versions
+└── outputs.tf               # Global outputs (if any)
