@@ -1,0 +1,39 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash log files
+crash.log
+
+# Ignore any Terraform plan files
+*.tfplan
+
+# Ignore .terraform directory
+.terraform/
+.terraform.lock.hcl
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Local env files or sensitive files
+*.env
+*.tfvars
+*.tfvars.json
+
+# Ignore editor and OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files created by editors
+*~
+*.swp
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# Ignore any compiled or generated files
+*.bin
+*.exe
