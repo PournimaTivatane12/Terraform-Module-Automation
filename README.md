@@ -1,5 +1,10 @@
 # Terraform-Module-Automation
 
+# Architecture
+
+<img width="553" height="830" alt="image" src="https://github.com/user-attachments/assets/0ca2dfc5-d136-455a-8ac5-69295e381da2" />
+
+
 *work in progress*
 
 **Overview**
